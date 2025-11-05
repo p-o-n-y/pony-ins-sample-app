@@ -36,7 +36,7 @@ void pony_ins_sample_app_print_progress(void);
 int main(void)
 {
 	const char pony_configuration[] = 
-		"{imu: lat = +55.0000302831, lon = +37.0000369619, alt = +200, alignment = 30, freq = 400, vertical_damping_stdev = 0}, sensors_in = wavesim.txt out = ins.nav";
+		"{imu: lat = +55.0000302831, lon = +37.0000369619, alt = +200, alignment = 30, freq = 400, vertical_damping_stdev = 0}, sensors_in = wavesim.imu out = ins.nav";
 
 	printf("pony-ins-sample-app has started\n----\n");
 
